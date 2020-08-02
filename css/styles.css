@@ -1,0 +1,383 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 980px;
+    margin: auto;
+}
+
+.banner{
+    background-image: url("../images/banner_large.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+.market-logo{
+    width: 175px;
+    background-color: #fff;
+    padding-left: 24px;    
+    padding-top: 10px;
+    position: relative;
+    top: 35px;
+
+}
+.logo-small{
+display: none;
+}
+.logo-large{
+    display: block;
+}
+.logo-medium{
+    display: none;
+}
+footer{
+    background-color: #00A1D3;
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+    height: 38px;
+}
+footer p{
+    padding-top: 13px;
+    padding-left: 24px;
+}
+nav{
+    background-color: #00A1D3;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+  
+}
+nav ul {
+    padding-left: 24px;
+    padding-top: 13px;
+    }
+nav ul li{
+display: inline;
+padding-right: 40px;
+cursor: pointer;
+}
+nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;   
+    cursor: pointer;
+    }
+    .welcome-block{
+        width: 100%;
+        color: #333333;
+        height: 415px;
+        order: 2;
+    }
+    .welcome-left{
+        width: 55%;
+        float: left;
+        padding-left: 24px;
+        padding-top: 14px;
+    }
+    .welcome-right{
+        width: 40%;
+        float: left;
+        padding-left: 24px;
+        padding-top: 14px;
+    }
+    .welcome-left h1{
+        font-size: 28px;
+        color: #333333;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .welcome-left p{
+        line-height: 20px;
+        text-align: justify;
+    }
+    .profile-left, .profile-right{
+        float: left;
+        width: 50%;
+        padding-top: 15px;
+    }
+    .profile-left h3, .profile-right h3{
+       font-size: 16px;
+       text-transform: capitalize;
+       font-weight: ;
+    }
+    .profile-left a, .profile-right a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #00A1D3;
+        font-weight: 600;    
+        font-size: 11px;
+    }
+    .profile-left p, .profile-right p{
+        line-height: 15px;
+    font-size: 13px;
+    }
+    .btn-contact{
+        color: #fff;
+        background-color: #00A1D3;
+        text-transform: capitalize;
+        outline: none;
+        border: none;
+        padding: 7px 20px;
+        border-radius: 4px;
+        width: auto;
+        display: block;
+        margin-top: 18px;
+    }
+    form{
+        padding-left: 36px;
+    }
+    form label{
+        font-size: 11px;
+        display: block;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-weight: 600;
+    }
+    form input{
+        height: 26px;
+        border-radius: 4px;
+        width: 94%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 14px;
+    }
+    form select{
+    height: 30px;
+    border-radius: 4px;
+    width: 98%;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding-left: 14px;
+    }
+    .inner-left{
+        float: left;width:27%;
+    }
+    .inner-right{
+        float: left;width:70%;
+    }
+      .desktopview{
+        display: block;
+    }
+    .mobileview{
+        display: none;
+    }
+    .arrow-right{
+        top: 2px;
+        position: relative;
+        left: -7px;
+    }
+@media only screen and (min-width:320px) and (max-width:480px){
+    .banner{
+        background-image: url("../images/banner_small.jpg");
+        height: 85px;
+        width: 100%;
+
+    }
+    .logo-small{
+        display: block;
+        }
+        .logo-large{
+            display: none;
+        }
+        .logo-medium{
+            display: none;
+        }
+        .market-logo{
+            width: 122px;           
+            padding-left: 19px;
+            padding-top: 2px;
+            position: relative;
+            top: 15px;
+        
+        }
+            footer {
+            background-color: #fff;
+            font-size: 12px;
+            font-style: italic;
+            color: #333333;
+            height: 38px;
+        
+        }
+        footer p{
+            padding-top: 13px;
+            padding-left: 24px;
+        }
+        .welcome-block {           
+            height: 1200px;
+            min-height: 1200px;
+            order: 1;
+        }
+        .welcome-left {
+            width: 88%;
+            float: left;
+            padding-left: 24px;
+            padding-top: 14px;
+        }
+        .profile-left, .profile-right {
+            float: left;
+            width: 100%;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+        }
+        .profile-left {        
+            padding-bottom: 5px;
+        }
+        .profile-right {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .welcome-right {
+            width: 100%;
+            float: left;
+            padding-left: 0px;
+            padding-top: 14px;
+        }
+        form input {          
+            width: 90%;            
+        }
+        form select {          
+            width: 94%;            
+        }
+        .btn-contact {        
+               width: 90%;          
+        }
+        .inner-left{
+            float: left;width:20%;
+        }
+        .inner-right{
+            float: left;width:80%;
+        }
+        form {
+            padding-left: 26px;
+        }
+        .welcome-left p {            
+            padding-bottom: 10px;
+        }
+     
+        nav{
+            background-color: #00A1D3;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #fff;         
+            height: 210px;
+    text-align: center;
+            
+        }
+        nav ul {
+            padding-left: 24px;
+            padding-top: 13px;
+            padding-right: 24px;
+            }
+        nav ul li{
+        display: block;
+        padding-right: 40px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+        padding: 7px;
+    border-radius: 10px;
+        }
+        nav ul li a{
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            width: 100%;   
+            cursor: pointer;
+            
+            }
+            .desktopview{
+                display: none;
+            }
+            .mobileview{
+                display: block;
+            }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+ .banner{
+        background-image: url("../images/banner_medium.jpg");
+        height: 300px;
+        width: 100%;
+    
+        
+    }
+    .logo-small{
+        display: none;
+        }
+        .logo-large{
+            display: none;
+        }
+        .logo-medium{
+            display: block;
+        }
+        .market-logo{
+            width: 175px;
+            background-color: #fff;
+            padding-left: 24px;    
+            padding-top: 10px;
+            position: relative;
+            top: 35px;
+        
+        }
+        .welcome-block {           
+            height: 600px;
+        }
+        .welcome-left {
+            width: 50%;            
+        }
+        .welcome-right{
+            width: 40%;           
+        }
+        .inner-left{
+            float: left;width:30%;
+        }
+        .inner-right{
+            float: left;width:70%;
+        }
+        .desktopview{
+            display: block;
+        }
+        .mobileview{
+            display: none;
+        }
+}
+
+@media only screen and (min-width:768px) and (max-width:992){
+    .banner{
+        background-image: url("../images/banner_large.jpg");
+        height: 300px;
+        width: 100%;
+        background-size: cover;        
+        
+    }
+    .logo-small{
+        display: none;
+        }
+        .logo-large{
+            display: block;
+        }
+        .logo-medium{
+            display: none;
+        }
+        .market-logo{
+            width: 175px;
+            background-color: #fff;
+            padding-left: 24px;    
+            padding-top: 10px;
+            position: relative;
+            top: 35px;
+        
+        }
+}
